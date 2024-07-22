@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.header {
+    padding: 20px;
+    color: #101010;
+}
+
+.home-button {
+    background-color: #4CAF50;
+}
+
+.culture-button {
+    background-color: #FF9800;
+}
+
+.about-button {
+    background-color: #FFEB3B;
+    color: black;
+}
+
+.academic-button {
+    background-color: #03A9F4;
+}
+
+.home-button:hover,
+.culture-button:hover,
+.about-button:hover,
+.academic-button:hover {
+    opacity: 0.8;
+}
+
+.header.home-header {
+    background-color: #4CAF50;
+}
+
+.header.culture-header {
+    background-color: #FF9800;
+}
+
+.header.about-header {
+    background-color: #FFEB3B;
+}
+
+.header.academic-header {
+    background-color: #03A9F4;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.profile-img,
+.logo-img,
+.flags-img,
+.culture-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.flags-img,
+.culture-img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description,
+.academic-section,
+.about-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer .social-media a:hover {
+    color: #007BFF;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+.home-page {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #E8F5E9;
+}
+
+.culture-page,
+.about-page,
+.academic-page {
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+}
+#instagram.png-img {
+    width: 50px;
+    height: 50px;
+}
